@@ -6,7 +6,7 @@ const friendNameDisplay = document.getElementById('friend-name');
 
 // 1. YOUR DATABASE
 const friendsDB = [
-    { name: "Ashish", images: ["Aashish1.jpeg","Aashish2.jpeg","Aashish3.jpeg"], upiId: "6261195422@ptsbi"}
+    { name: "Ashish", images: ["Aashish1.jpeg","Aashish2.jpeg","Aashish3.jpeg",], upiId: "6261195422@ptsbi",upiId: "6261668746@pthdfc"}
 ];
 //lol
 let faceMatcher;
