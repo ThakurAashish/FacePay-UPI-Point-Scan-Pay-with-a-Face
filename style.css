@@ -71,12 +71,12 @@ header h1 {
     box-shadow: 0 0 30px rgba(16, 185, 129, 0.2);
 }
 
-video {
+.camera-wrapper video {
     width: 100%;
-    max-width: 400px;
-    border-radius: 10px;
-    object-fit: cover; /* Keeps it a nice square/rectangle */
-    transform: none !important; /* This forces it to look forward, not backward! */
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    display: block;
 }
 
 h2 { margin: 0 0 25px 0; font-size: 1.4rem; text-align: center; }
